@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samo_.navegacionconintent.Fragments.UtilidadesAndroid.FragmentUtilidadesAndroid">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <Button
+            android:text="Llamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLlamada"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="0.15" />
+
+        <Button
+            android:text="Navegar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNavegar"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="0.13" />
+
+        <Button
+            android:text="MAPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMaps"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="0.16" />
+    </LinearLayout>
+</FrameLayout>
